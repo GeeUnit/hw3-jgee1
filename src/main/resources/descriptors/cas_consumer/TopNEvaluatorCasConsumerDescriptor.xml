@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<casConsumerDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <implementationName>edu.cmu.deiis.cpe.consumers.TopNEvaluatorCasConsumer</implementationName>
+  <processingResourceMetaData>
+    <name>TopNEvaluatorCasConsumerDescriptor</name>
+    <description>This descriptor describes a CAS Consumer implementation of the Top N Evaluator, which calculates the precision of the Top N answers for a question. N is determined by the true number of correct answers.</description>
+    <version>1.0</version>
+    <vendor>jgee1</vendor>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <typeSystemDescription/>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs/>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>false</modifiesCas>
+      <multipleDeploymentAllowed>false</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </processingResourceMetaData>
+  <resourceManagerConfiguration/>
+</casConsumerDescription>

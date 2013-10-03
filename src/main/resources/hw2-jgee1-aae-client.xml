@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- This is a client descriptor for the HW2 Analysis Engine deployed as 
+	an UIMA-AS service. -->
+
+<customResourceSpecifier xmlns="http://uima.apache.org/resourceSpecifier">
+	<resourceClassName>
+		org.apache.uima.aae.jms_adapter.JmsAnalysisEngineServiceAdapter
+	</resourceClassName>
+	<parameters>
+		<parameter name="brokerURL" value="tcp://localhost:61616" />
+		<parameter name="endpoint" value="HW2QAEngineQueue" />
+	</parameters>
+</customResourceSpecifier>
