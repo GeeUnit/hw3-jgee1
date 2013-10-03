@@ -11,7 +11,7 @@
                 <nameValuePair>
                     <name>InputDirectory</name>
                     <value>
-                        <string>/home/jeff/workspace/11791/hw3-jgee1/src/main/resources/inputData</string>
+                        <string>/home/jeff/git/hw3-jgee1/src/main/resources/inputData</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>
@@ -32,7 +32,7 @@
         </casProcessor>
         <casProcessor deployment="integrated" name="TopNEvaluatorCasConsumerDescriptor">
             <descriptor>
-                <import location="descriptors/cas_consumer/TopNEvaluatorCasConsumerDescriptor.xml"/>
+                <import location="../../../../../workspace/11791/hw3-jgee1/src/main/resources/descriptors/cas_consumer/TopNEvaluatorCasConsumerDescriptor.xml"/>
             </descriptor>
             <deploymentParameters/>
             <errorHandling>
